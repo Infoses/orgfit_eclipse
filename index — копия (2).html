@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Orgfit</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	</head>
+	<body>
+		<header class="mb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<div class="row">
+							<a href="#" class="col-7"><img src="img/icons/logo.svg"></a>
+							<div class="dropdown col-5">
+								<button class="btn btn-link dropdown-toggle" type="button" id="dropdownCity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Москва</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownCity">
+									<a class="dropdown-item" href="#">Москва</a>
+									<a class="dropdown-item" href="#">Санкт-Петербург</a>
+									<a class="dropdown-item" href="#">Нижний Новгород</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Искать по городу, адресу, телефону" aria-label="Search">
+						</form>
+					</div>
+					<div class="right-side col-5">
+						<a href="#" class="favorite"></a>
+						<a href="#" class="notification"></a>
+						<a role="button" href="#" class="btn btn-primary">Новое объявление</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav class="container navbar navbar-expand-lg navbar-light bg-light mb-3">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-link">Фитнес-клубы</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Бассены</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Спортивные секции</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Центры йоги</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Стадионы</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Тренеры</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							еще
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Велоспорт</a>
+							<a class="dropdown-item" href="#">Водный спорт</a>
+							<a href="#" class="dropdown-item">Воздушный спорт</a>
+							<a href="#" class="dropdown-item">Гольф-клубы</a>
+							<a href="#" class="dropdown-item">Горнолыжные базы</a>
+							<a href="#" class="dropdown-item">Картодромы</a>
+							<a href="#" class="dropdown-item">Катки</a>
+							<a href="#" class="dropdown-item">Паркур</a>
+							<a href="#" class="dropdown-item">Роллердромы</a>
+							<a href="#" class="dropdown-item">Скалодромы</a>
+							<a href="#" class="dropdown-item">Скейтпарки</a>
+							<a href="#" class="dropdown-item">Спортивные базы</a>
+							<a href="#" class="dropdown-item">Стрелковые клубы, тиры</a>
+							<a href="#" class="dropdown-item">Теннисные клубы</a>
+							<a href="#" class="dropdown-item">Тренажерные залы</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<div class="container">
+				<div class="banner">
+					<img src="img/icons/background.svg" alt="">
+					<h1>Поиск спортивных организаций в Москве</h1>
+					<h3>с реальными отзывами в Вашем городе</h3>
+					<form action="">
+						<div class="select row">
+							<div class="form-group col-4">
+								<select class="form-control" id="exampleFormControlSelect1">
+									<option>Москва</option>
+									<option>Санкт-Петербург</option>
+									<option>Нижний Новгород</option>
+								</select>
+							</div>
+							<div class="form-group col-4">
+								<select class="form-control" id="exampleFormControlSelect1">
+									<option>Фитнес-клубы</option>
+									<option>Бассены</option>
+									<option>Спортивные секции</option>
+									<option>Центры йоги</option>
+									<option>Стадионы</option>
+									<option>Велоспорт</option>
+									<option>Водный спорт</option>
+									<option>Гольф-клубы</option>
+									<option>Горнолыжные базы</option>
+									<option>Картодромы</option>
+									<option>Катки</option>
+									<option>Паркур</option>
+									<option>Роллердромы</option>
+									<option>Скалодромы</option>
+									<option>Скейтпарки</option>
+									<option>Спортивные базы</option>
+									<option>Стрелковые клубы, тиры</option>
+									<option>Теннисные клубы</option>
+									<option>Тренажерные залы</option>
+								</select>
+							</div>
+							<div class="submit col-4">
+								<button type="submit" class="btn btn-primary btn-block">Найти</button>
+							</div>
+						</div>
+					</form>
+					<div class="interesting">
+						<p>Возможно будет интерестно: <a class="btn btn-link" href="#">Аквааэробика</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="container mb-5">
+				<div class="row">
+					<div class="col-8">
+						<div class="card-list row mb-4">
+							<h2 class="col-12">Фитнес-клубы в Москве</h2>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/asset-1.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Фитнес-клуб Практика Комсомольская</a></p>
+										<p class="card-text metro">Комсомольская <span class="distance">(1,1 км)</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/8748_original.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Фитнес-клуб Путь силы</a></p>
+										<p class="card-text metro">Первомайская <span class="distance">(2,2 км)</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/8731_original.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Фитнес-клуб WEGYM Звездный</a></p>
+										<p class="card-text metro">Котельники <span class="distance">(12,3 км)</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="list col-12">
+							<ul class="row">
+								<li class="col-4"><a href="#">Кардиозал</a> <span class="amount">821</span></li>
+								<li class="col-4"><a href="#">Банный комплекс <span class="amount">1504</span></a></li>
+								<li class="col-4"><a href="#">Персональные тренировки <span class="amount">828</span></a></li>
+								<li class="col-4"><a href="#">Зал единоборств <span class="amount">125</span></a></li>
+								<li class="col-4"><a href="#">Занятия для беременных <span class="amount">308</span></a></li>
+								<li class="col-4"><a href="#">Фитнес-тестирование <span class="amount">415</span></a></li>
+								<li class="col-4"><a href="#">Групповые занятия <span class="amount">517</span></a></li>
+								<li class="col-4"><a href="#">Зал на открытом воздухе <span class="amount">274</span></a></li>
+							</ul>
+							<a href="#" class="btn btn-link">Весь список</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<a class="adv-banner" href="#"><img src="img/icons/" alt="<Реклама"></a>
+					</div>
+				</div>
+			</div>
+			<div class="container mb-5">
+				<div class="navigation-list">
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-link btn-nav active">Карта</button>
+						<button type="button" class="btn btn-link btn-nav">Метро</button>
+						<button type="button" class="btn btn-link btn-nav">Районы</button>
+					</div>
+				</div>
+				<div class="map">
+					<img src="img/icons/map.png" alt="">
+				</div>
+			</div>
+			<div class="container mb-5">
+				<div class="row">
+					<div class="col-8">
+						<div class="card-list row mb-4">
+							<h2 class="col-12">Бассейны в Москве</h2>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/asset-1.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Бассейн Юна Aqua Life Энтузиастов</a></p>
+										<p class="card-text metro">Авиамоторная <span class="distance">(2,2 км)</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/8748_original.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Бассейн под открытым небом Чайка</a></p>
+										<p class="card-text metro">Парк культуры <span class="distance">(1,5 км)</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card">
+									<a href="#"><img src="img/icons/8731_original.svg" alt=""></a>
+									<div class="card-body">
+										<p class="card-text"><a href="#">Школа плавания № 1</a></p>
+										<p class="card-text metro">Выхино <span class="distance">(12,3 км)</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="list col-12">
+							<ul class="row">
+								<li class="col-4"><a href="#">Открытый бассейн <span class="amount">821</span></a></li>
+								<li class="col-4"><a href="#">Пляж <span class="amount">517</span></a></li>
+								<li class="col-4"><a href="#">Зал групповых программ <span class="amount">308</span></a></li>
+								<li class="col-4"><a href="#">Банный комплекс <span class="amount">504</span></a></li>
+								<li class="col-4"><a href="#">Для детей <span class="amount">125</span></a></li>
+								<li class="col-4"><a href="#">Лечебная гимнастика <span class="amount">228</span></a></li>
+							</ul>
+							<a href="#" class="btn btn-link">Весь список</a>
+						</div>
+						<div class="list col-12">
+							<ul class="row">
+								<h3 class="col-12">Спортивные секции в Москве</h3>
+								<li class="col-4"><a href="#">Айкидо <span class="amount">2081</span></a></li>
+								<li class="col-4"><a href="#">Легкая атлетика <span class="amount">587</span></a></li>
+								<li class="col-4"><a href="#">Футбол <span class="amount">4125</span></a></li>
+								<li class="col-4"><a href="#">Хоккей <span class="amount">254</span></a></li>
+								<li class="col-4"><a href="#">Фигурное катание <span class="amount">125</span></a></li>
+								<li class="col-4"><a href="#">Хореография <span class="amount">754</span></a></li>
+								<li class="col-4"><a href="#">Плавание <span class="amount">325</span></a></li>
+								<li class="col-4"><a href="#">Баскетбол <span class="amount">788</span></a></li>
+								<li class="col-4"><a href="#">Бокс <span class="amount">985</span></a></li>
+							</ul>
+							<a href="#" class="btn btn-link">Весь список</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<a class="adv-banner" href="#"><img src="img/icons/" alt="<Реклама"></a>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

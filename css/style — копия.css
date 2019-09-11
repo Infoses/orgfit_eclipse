@@ -1,0 +1,73 @@
+body {
+	padding-bottom: 100px;
+}
+
+header .form-inline .form-control {
+	width: 100%;
+}
+
+header .right-side {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header .favorite {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/favorite.svg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 15px;
+	background-size: 15px;
+	background-position: 50% 50%;
+}
+
+header .notification {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/Combined_Shape.svg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 20px;
+	background-size: 20px;
+	background-position: 50% 50%;
+}
+
+main .card img {
+	width: 100%;
+}
+
+main .card .metro {
+	background-image: url(../img/icons/Moscow_Metro.svg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 20px;
+	background-size: 20px;
+	background-position: 0 0;
+	padding-left: 25px;
+}
+
+main .card .metro .distance {
+	background-image: url(../img/icons/run.svg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 10px;
+	background-size: 10px;
+	background-position: 0 0;
+	padding-left: 15px;
+	margin-left: 10px;
+}
+
+main .list ul {
+	padding: 0;
+	list-style: none; 
+}
+
+main .map img {
+	width: 100%;
+	height: 540px;
+}
